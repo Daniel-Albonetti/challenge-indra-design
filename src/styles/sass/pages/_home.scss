@@ -1,0 +1,185 @@
+
+.container {
+    &__section {
+
+        &--two {
+
+            .home {
+                &__content {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+            
+                    &--left {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        max-width: 553px;
+                        margin-left: auto;
+                    }
+
+                    &--title {
+                        font-family: $rubik-Regular;
+                        font-size: 50px;
+                        font-weight: 400;
+                    }
+                    &--description {
+                        font-family: $rubik-Regular;
+                        color: $muted-2;
+                    }
+                    &--action {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+
+        }
+
+        &--three {
+
+            .home {
+                &__content {
+                    display: flex;
+                    justify-content: space-around;
+                    box-shadow: 7px 13px 35px 0px #00000017;
+                    height: 114px;
+                    align-items: center;
+
+                    &--item {
+                        display: flex;
+                        gap: 23px;
+                    }
+
+                    &--icon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: $secondary;
+                        width: 37px;
+                        height: 37px;
+                        border-radius: 20px;
+                    }
+
+                    &--description {
+                        p {
+                            &:first-child {
+                                font-family: $rubik-Bold;
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+                            &:last-child {
+                                font-family: $rubik-Regular;
+                                font-size: 15px;
+                                color: $muted-3;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        &--four {
+
+            .home {
+                &__content {
+                    display: flex;
+                    align-items: center;
+                    gap: 205px;
+
+                    &--left {
+                        margin-left: auto;
+                    }
+
+                    &--right {
+                        width: 408px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                    }
+
+                    &--title {
+                        h3 {
+                            font-family: $rubik-SemiBold;
+                            font-size: 30px;
+                            width: 307px;
+                        }
+                    }
+
+                    &--description {
+                        p {
+                            color: $muted-2;
+                        }
+                    }
+
+                    &--checks {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 21px;
+                        margin-top: 1rem;
+                    }
+
+                    &--item {
+                        display: flex;
+                        gap: 14px;
+                    }
+
+                    &--icon {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    &--text {
+                        p {
+                            font-family: $rubik-SemiBold;
+                            font-weight: 600;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        &--five {
+
+            .home {
+                &__content {
+
+                    &--second {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 29px;
+                    }
+
+                    &--checks {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 21px;
+                        margin-top: 1rem;
+                    }
+
+                    &--item {
+                        display: flex;
+                        gap: 14px;
+                    }
+
+                    &--icon {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    &--text {
+                        p {
+                            font-family: $rubik-Regular;
+                            color: $muted-1;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+}

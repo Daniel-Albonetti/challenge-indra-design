@@ -1,0 +1,41 @@
+
+.header {
+    &__brand {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+
+        span {
+            font-family: $rubik-Regular;
+            color: $muted-1;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--left {
+            display: flex;
+            justify-content: space-between;
+            min-width: 649px;
+        }
+    }
+
+    &__nav {
+        &--content {
+            display: flex;
+            align-items: center;
+            gap: 56px;
+        }
+    }
+
+    &__login {
+        &--content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}

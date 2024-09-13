@@ -1,0 +1,46 @@
+
+.container {
+    &__section {
+
+        &--one {
+            max-width: 1039px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &--two {
+            max-width: 1220px;
+            margin-top: 4.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &--three {
+            max-width: 820px;
+            margin-top: 4.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &--four {
+            max-width: 1220px;
+            margin-top: 4.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &--five {
+            max-width: 1009px;
+            margin-top: 4.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+}
+
+.separator-vertical {
+    width: 40px;
+    border: 1px solid $muted-4;
+    transform: rotate(90deg)
+}
